@@ -4,7 +4,7 @@ export default function Logo({
   style = 'e2b',
   ...props
 }: { style?: LogoStyle } & React.SVGProps<SVGSVGElement>) {
-  return style === 'UI Engineer By LLMs' ? (
+  return style === 'fragments' ? (
     <svg
       {...props}
       viewBox="0 0 232 232"
