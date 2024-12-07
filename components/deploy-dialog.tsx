@@ -64,11 +64,11 @@ export function DeployDialog({
       <DropdownMenuContent className="p-4 w-80 flex flex-col gap-2">
         <div className="text-sm font-semibold">Deploy to E2B</div>
         <div className="text-sm text-muted-foreground">
-          Deploying the fragment will make it publicly accessible to others via
+          Deploying the UI Engineer will make it publicly accessible to others via
           link.
         </div>
         <div className="text-sm text-muted-foreground">
-          The fragment will be available up until the expiration date you choose
+          The UI Engineer will be available up until the expiration date you choose
           and you&apos;ll be billed based on our{' '}
           <a
             href="https://e2b.dev/docs/pricing"

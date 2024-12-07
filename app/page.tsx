@@ -216,11 +216,11 @@ export default function Home() {
 
   function handleSocialClick(target: 'github' | 'x' | 'discord') {
     if (target === 'github') {
-      window.open('https://github.com/e2b-dev/fragments', '_blank')
+      window.open('', '_blank')
     } else if (target === 'x') {
-      window.open('https://x.com/e2b_dev', '_blank')
+      window.open('', '_blank')
     } else if (target === 'discord') {
-      window.open('https://discord.gg/U7KEcGErtQ', '_blank')
+      window.open('', '_blank')
     }
 
     posthog.capture(`${target}_click`)
